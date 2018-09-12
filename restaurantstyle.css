@@ -1,6 +1,6 @@
 /*Rebecca Baca
 	Date: 9/10/18
-	Last Modified: 9/10/18
+	Last Modified: 9/12/18
 	Restaurant Site
 */
 /*********************************************
@@ -18,9 +18,14 @@
   line-height: 1;
   position: relative;
 }
+/********************************************************
+						Navigation Menu Styling
+*********************************************************/
+
 #menu {
 	border-top: 4px double #AAA;
-  	border-bottom: 4px double #AAA;
+  	padding: 10px;	
+	
  }
 #menu li {
   color: #AAA;
@@ -33,16 +38,12 @@
 }
 #menu a:hover {
   color: #bfe4f;
+  font-weight: bold;
+  text-decoration: none;
 }
 #menu li:after,
 #menu li:before {
-  color: #770834
-}
-#menu li:after {
-	
-}
-#menu li:before {
-  
+  color: #AAA;
 }
 header, footer {
 	background-color: white;
@@ -89,6 +90,11 @@ table {
 	padding: 2%;
 	border: 1px solid black;
 }
+tbody {
+	background-color: linen;
+	background-size: stretch;	
+	color: black;
+}
 /*****************************************		
 					Form Styling
 ******************************************/
@@ -96,10 +102,12 @@ form {
 	width: auto;
 	height: auto;
 	text-align: left;
+	display: inline;
 }
 label {
 	display: inline-block;
 	text-align: left;
+	font-weight: bold;
 }
 input {
 	clear: left;
