@@ -6,6 +6,14 @@
 /*********************************************
                 Home page, headers, and footers
 **********************************************/
+#announcements {
+	width: auto;
+	height: auto;
+	margin: 10px;
+	border: silver solid 10px;
+	padding: 0;
+	float: both;
+}
 #logo {
   font-family: 'Open Sans', sans-serif;
   color: #555;
@@ -19,7 +27,19 @@
   position: relative;
 }
 #homecontent {
-	background-color: rgba(250, 240, 230, 0.5);
+	background-color: 	rgba(211,211,211, .7);
+}
+#burger {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 50px 70px 50px 60px;
+	border: 8px solid black;
+	border-radius: 50%;	
+}
+#openingsoon {
+	text-align: right;
+	font-style: italic;
 }
 /********************************************************
 						Navigation Menu Styling
@@ -60,19 +80,12 @@ footer {
 	text-align: center;
 }
 body {
-  padding: 20px 80px;
+  padding: 20px 70px;
   background: grey;
 }
 /*****************************************		
 					Articles & Containers
 ******************************************/
-img {
-	/*first page image*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-}
 #content {
 	max-width: 80%;
 	text-align: left;
@@ -89,22 +102,6 @@ img {
 /*****************************************		
 					Table Styling
 ******************************************/
-/*table {
-	max-width: 100%;
-	text-align: center;
-	height: 100%;
-	margin: auto;
-	padding: 2%;
-}
-tbody {
-	background-color:  rgba(250, 240, 230, 0.5);
-	background-size: stretch;	
-	color: black;
-}
-td {
-	word-wrap: break-word;
-	max-width: 30%;
-}*/
 table {
     font-family: "Open Sans", sans-serif;
     border-collapse: collapse;
@@ -117,11 +114,8 @@ table td, table th {
     padding: 8px;
 	text-align: center;
 }
-
 table tr:nth-child(even){background-color: #f2f2f2;}
-
 table tr:hover {background-color: #ddd;}
-
 table th {
     padding-top: 12px;
     padding-bottom: 12px;
