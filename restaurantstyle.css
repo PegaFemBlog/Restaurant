@@ -1,6 +1,6 @@
 /*Rebecca Baca
 	Date: 9/10/18
-	Last Modified: 9/12/18
+	Last Modified: 9/20/18
 	Restaurant Site
 */
 /*********************************************
@@ -19,8 +19,9 @@
   color: #555;
   text-decoration: none;
   text-align: left;
+  text-shadow: 2px 2px 8px #a59891;
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: 700;
   letter-spacing: -3px;
   line-height: 1;
@@ -60,30 +61,20 @@
 #menu {
 	border-top: 4px double #AAA;
   	padding: 10px;	
-	
  }
 #menu li {
-  color: #AAA;
+  color:  #2c4670;
 }
 #menu li a {
-  color: #00000;
+  color: #2c4670;
 }
 #menu li a:visited {
-  color: rgb(0, 0, 102);
-}
-#menu li:hover {
-	color: #fffff;
+  color: #d1bd6e;
 }
 #menu a:hover {
   color: #bfe4f;
   font-weight: bold;
   text-decoration: none;
-}
-#menu li:after {
-	color: red;
-}
-#menu li:before {
-  color: #AAA;
 }
 header, footer {
 	background-color: white;
@@ -97,7 +88,7 @@ body {
   background: grey;
 }
 /*****************************************		
-					Articles & Containers
+							Articles 
 ******************************************/
 #content {
 	max-width: 80%;
@@ -107,7 +98,7 @@ body {
 	padding: 5%;
 }
 /*****************************************		
-					Table Styling
+						Table Styling
 ******************************************/
 #contact {
 	max-width: 100%;
@@ -131,9 +122,14 @@ table tr:hover {background-color: #ddd;}
 table th {
     padding-top: 12px;
     padding-bottom: 12px;
+	font-weight: bold;
+	font-size: 16px;
     text-align: left;
     background-color: #555;
     color: white;
+}
+.beverages {
+	text-align: left;
 }
 /*****************************************		
 					Form Styling
@@ -149,8 +145,10 @@ label {
 	text-align: left;
 	font-weight: bold;
 	float: left;
-	margin-right: 10px;
+	margin-right: 12px;
 }
-.beverages {
-	text-align: left;
+#info {
+	width: 40%;
+	float: left;
+	padding: 0;
 }
