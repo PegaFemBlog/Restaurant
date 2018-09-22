@@ -1,6 +1,6 @@
 /*Rebecca Baca
 	Date: 9/10/18
-	Last Modified: 9/20/18
+	Last Modified: 9/22/18
 	Restaurant Site
 */
 /*********************************************
@@ -47,39 +47,24 @@
 }
 @media only screen and (max-width: 600px) {
 #restaurant {
+	color: rgb(237, 237, 220);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 30px;
 }}
 @media only screen and (min-width: 601px) {
 #restaurant {
+	color: rgb(237, 237, 220);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 60px;
 }}
-/********************************************************
-						Navigation Menu Styling
-*********************************************************/
-#menu {
-	border-top: 4px double #AAA;
-  	padding: 10px;	
- }
-#menu li {
-  color:  #2c4670;
-}
-#menu li a {
-  color: #2c4670;
-}
-#menu li a:visited {
-  color: #d1bd6e;
-}
-#menu a:hover {
-  color: #bfe4f;
-  font-weight: bold;
-  text-decoration: none;
-}
-header, footer {
-	background-color: white;
+header {
+	background-color: rgb(237, 237, 220);
 }
 footer {
+	border-top: 4px double #AAA;
+	background-color: rgb(237, 237, 220);
 	padding: 12px 12px 12px 0;
 	text-align: center;
 }
@@ -87,8 +72,27 @@ body {
   padding: 20px 70px;
   background: grey;
 }
+/********************************************************
+						Navigation Menu Styling
+*********************************************************/
+#menu {
+	border-top: 4px double #AAA;
+	border-bottom: 4px double #AAA;
+  	padding: 10px;	
+ }
+#menu li {
+  color:  #2c4670;
+  }
+li a:visited {
+  color: #d1bd6e;
+}
+#menu li:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
 /*****************************************		
-							Articles 
+							Article 
 ******************************************/
 #content {
 	max-width: 80%;
@@ -111,6 +115,8 @@ table {
     border-collapse: collapse;
     width: 100%;
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 table td, table th {
     border: 1px solid #ddd;
