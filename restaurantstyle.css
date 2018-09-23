@@ -104,13 +104,13 @@ body {
 	border-bottom: 4px double #AAA;
   	padding: 10px;	
 }
-#menu li {
-  color:  #2c4670;
+#menu button {
+  color:   #555;
  }
-#menu li:visited {
+#menu button:visited {
 	color: #d1bd6e;
 }
-#menu li:hover {
+#menu button:hover {
   color: white;
   font-weight: bold;
   text-decoration: none;
